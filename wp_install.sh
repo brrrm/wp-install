@@ -50,6 +50,9 @@ echo $password
 echo $password | pbcopy
 
 
+# ~/public_html leegmaken!!!
+cd ~/public_html
+rm -rf *
 
 # download WP
 wp core download --locale=nl_NL
