@@ -47,7 +47,6 @@ password=$(env LC_CTYPE=C tr -dc "A-Za-z0-9" < /dev/urandom | head -c 20)
 # Copy the password to the clipboard
 echo "Below you'll find your password. It's copied to your memory. Please store it somewhere safe!"
 echo $password
-echo $password | pbcopy
 
 
 # ~/public_html leegmaken!!!
@@ -173,7 +172,17 @@ wp option update wpseo_social '{"facebook_site":"","instagram_url":"","linkedin_
 # clear the bash history so the password can't be retrieved from the history
 history -c
 
-echo "Wham Bam, thank you m'am!"
+echo ""
+echo ""
+echo "======================================="
+echo " WHAM BAM! THANK YOU M'AM!"
+echo ""
+echo " Below you'll find your password. It's "
+echo " copied to your memory. Please store it "
+echo " somewhere safe!"
+echo "======================================="
+echo $password
+echo "======================================="
 
 # Open the new website with Google Chrome
 # open -a /Applications/Google\ Chrome.app https://$domain/
