@@ -69,7 +69,7 @@ wp theme delete twentytwentyone
 wp theme install storefront
 #install our subtheme
 mkdir wp-content/themes/webshoplocatie
-git clone git@github.com:brrrm/webshoplocatie-storefront-subtheme.git wp-content/themes/webshoplocatie/
+git clone https://github.com/brrrm/webshoplocatie-storefront-subtheme.git wp-content/themes/webshoplocatie/
 wp theme activate webshoplocatie
 
 
