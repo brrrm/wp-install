@@ -104,6 +104,7 @@ wp plugin install mollie-payments-for-woocommerce --activate
 wp plugin install wordpress-seo --activate
 wp plugin install ean-for-woocommerce --activate
 wp plugin install woocommerce-pdf-invoices-packing-slips --activate
+wp plugin install woo-media-api --activate
 
 # Create a navigation bar
 wp menu create "Main\ Navigation"
